@@ -1,0 +1,53 @@
+@import "variables";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "gotham", sans-serif;
+  letter-spacing: -1px;
+  margin: 0;
+  color: $black;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 5rem;
+}
+
+h5 {
+  font-size: 4rem;
+}
+
+h6 {
+  font-size: 3rem;
+}
+
+a,
+p {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: -1px;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  font-family: "gotham", sans-serif;
+}

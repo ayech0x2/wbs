@@ -1,0 +1,44 @@
+/* Gotham font */
+@font-face {
+  // THIN
+  font-family: "gotham";
+  src: url("../assets/fonts/Gotham-Thin.woff2") format("woff2"),
+  url("../assets/fonts/Gotham-Thin.woff") format("woff");
+  font-weight: 200 ;
+  font-style: normal;
+}
+
+@font-face {
+  // THIN
+  font-family: "gotham";
+  src: url("../assets/fonts/Gotham-ThinItalic.woff2") format("woff2"),
+  url("../assets/fonts/Gotham-ThinItalic.woff") format("woff");
+  font-weight: 200 ;
+  font-style: italic;
+}
+
+
+@font-face {
+  // BLACK
+  font-family: "gotham";
+  src: url("../assets/fonts/Gotham-Black.woff2") format("woff2"),
+  url("../assets/fonts/Gotham-Black.woff") format("woff");
+  font-weight: 700 ;
+  font-style: normal;
+}
+
+/* */
+
+
+/* Muli font */
+
+@font-face {
+  // Light
+  font-family: "muli";
+  src: url("../assets/fonts/Muli-Light.woff2") format("woff2"),
+  url("../assets/fonts/Muli-Light.woff") format("woff");
+  font-weight: 300 ;
+  font-style: normal;
+}
+
+/* */

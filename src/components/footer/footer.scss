@@ -1,0 +1,59 @@
+@import "../../stylesheet/variables";
+.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding-bottom: 4rem;
+  background-color: $white;
+  .footer-item {
+    flex: 1;
+    padding: 0 4rem;
+    &.contact,
+    &.scroll-button,
+    &.icons {
+      display: flex;
+    }
+    &.contact {
+      justify-content: flex-start;
+      a {
+        font-weight: 200;
+        color: $main;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 0.5rem;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 0;
+          background: $main;
+          height: 1px;
+          left: 0;
+          bottom: 0;
+          transition: width 500ms ease-out;
+        }
+        &:hover {
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &.scroll-button {
+      justify-content: center;
+    }
+    &.icons {
+      justify-content: flex-end;
+      svg {
+        cursor: pointer;
+        margin-right: 0.5rem;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

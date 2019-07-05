@@ -1,0 +1,36 @@
+.layout {
+  .components {
+    padding: 0 4rem;
+  }
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+  margin-left: 0;
+
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.transition-group {
+  position: relative;
+}
+
+
+.fp-tableCell {
+  display: flex;
+  align-items: center;
+}
+
